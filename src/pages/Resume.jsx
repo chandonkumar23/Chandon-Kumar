@@ -1,7 +1,7 @@
 import { MdFileDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const resumeFile ='http://localhost:5173/chandon-resume.pdf'
+const resumeFile ='https://drive.google.com/file/d/1vwdtTdfnM8xFdGAD8_lAXEhzQrX9k1y3/view'
 const Resume = () => {
     const downloadFile =(url)=>{
         const resuneFile = url.split('/').pop()

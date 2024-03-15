@@ -12,7 +12,7 @@ import { router } from './Router/Router.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div  className='max-w-[1550px] mx-auto bg-[#2f2477] '>
+    <div  className='bg-[#2f2477]'>
     <RouterProvider router={router} />
     </div>
 
