@@ -4,11 +4,11 @@ import {
 import Main from "../Layout/Main/Main";
 import Home from "../Home/Home";
 import Services from "../pages/Services/Services";
-import Projects from "../pages/Services/Projects/Projects";
 import About from "../pages/Services/About/About";
 import Contact from "../pages/Services/Contact/Contact";
 import Skills from "../pages/Services/Skills/Skills";
 import Error from "../Error";
+import Project from "../pages/Services/Projects/NavProject/Project";
 
 export const router =  createBrowserRouter ([
 {
@@ -26,7 +26,7 @@ export const router =  createBrowserRouter ([
     },
     {
       path:'/projects',
-      element:<Projects></Projects>,
+      element:<Project></Project>,
     },
     {
       path:'about',
